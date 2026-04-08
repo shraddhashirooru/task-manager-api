@@ -59,11 +59,6 @@ pip install -r requirements.txt
 ```
 ### Create a .env file with your database and secret key configuration:
 ```
-DATABASE_HOSTNAME=localhost
-DATABASE_PORT=5432
-DATABASE_NAME=fastapi
-DATABASE_USERNAME=postgres
-DATABASE_PASSWORD=yourPassword
 SECRET_KEY=YourSecretKey
 ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=30
@@ -108,3 +103,8 @@ uvicorn app.main:app --reload
 Use Swagger UI: http://localhost:8000/docs
 
 Use JWT token received from login for authenticated routes.
+
+### Live 
+https://task-manager-api-kwci.onrender.com
+
+Swagger Docs: https://task-manager-api-kwci.onrender.com/docs
